@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E72D88E41EA463AE00ACA6A6 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D88E21EA463AE00ACA6A6 /* CameraView.swift */; };
-		E72D88E51EA463AE00ACA6A6 /* DrawableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D88E31EA463AE00ACA6A6 /* DrawableView.swift */; };
-		E72D88E71EA463BF00ACA6A6 /* LiveSketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D88E61EA463BF00ACA6A6 /* LiveSketchView.swift */; };
+		E7C4E2361EACF30C00E0600E /* NACameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4E2331EACF30C00E0600E /* NACameraView.swift */; };
+		E7C4E2371EACF30C00E0600E /* NADrawableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4E2341EACF30C00E0600E /* NADrawableView.swift */; };
+		E7C4E2381EACF30C00E0600E /* NALiveSketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4E2351EACF30C00E0600E /* NALiveSketchView.swift */; };
 		E7C638F51EA45B5F00CC1360 /* NALiveSketchView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C638EB1EA45B5F00CC1360 /* NALiveSketchView.framework */; };
 		E7C638FA1EA45B5F00CC1360 /* NALiveSketchViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C638F91EA45B5F00CC1360 /* NALiveSketchViewTests.swift */; };
 		E7C638FC1EA45B5F00CC1360 /* NALiveSketchView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C638EE1EA45B5F00CC1360 /* NALiveSketchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,9 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E72D88E21EA463AE00ACA6A6 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		E72D88E31EA463AE00ACA6A6 /* DrawableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawableView.swift; sourceTree = "<group>"; };
-		E72D88E61EA463BF00ACA6A6 /* LiveSketchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveSketchView.swift; sourceTree = "<group>"; };
+		E7C4E2331EACF30C00E0600E /* NACameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NACameraView.swift; sourceTree = "<group>"; };
+		E7C4E2341EACF30C00E0600E /* NADrawableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NADrawableView.swift; sourceTree = "<group>"; };
+		E7C4E2351EACF30C00E0600E /* NALiveSketchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NALiveSketchView.swift; sourceTree = "<group>"; };
 		E7C638EB1EA45B5F00CC1360 /* NALiveSketchView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NALiveSketchView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C638EE1EA45B5F00CC1360 /* NALiveSketchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NALiveSketchView.h; sourceTree = "<group>"; };
 		E7C638EF1EA45B5F00CC1360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,10 +77,10 @@
 		E7C638ED1EA45B5F00CC1360 /* NALiveSketchView */ = {
 			isa = PBXGroup;
 			children = (
+				E7C4E2331EACF30C00E0600E /* NACameraView.swift */,
+				E7C4E2341EACF30C00E0600E /* NADrawableView.swift */,
+				E7C4E2351EACF30C00E0600E /* NALiveSketchView.swift */,
 				E7C638EE1EA45B5F00CC1360 /* NALiveSketchView.h */,
-				E72D88E61EA463BF00ACA6A6 /* LiveSketchView.swift */,
-				E72D88E21EA463AE00ACA6A6 /* CameraView.swift */,
-				E72D88E31EA463AE00ACA6A6 /* DrawableView.swift */,
 				E7C638EF1EA45B5F00CC1360 /* Info.plist */,
 			);
 			path = NALiveSketchView;
@@ -208,9 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E72D88E51EA463AE00ACA6A6 /* DrawableView.swift in Sources */,
-				E72D88E41EA463AE00ACA6A6 /* CameraView.swift in Sources */,
-				E72D88E71EA463BF00ACA6A6 /* LiveSketchView.swift in Sources */,
+				E7C4E2381EACF30C00E0600E /* NALiveSketchView.swift in Sources */,
+				E7C4E2361EACF30C00E0600E /* NACameraView.swift in Sources */,
+				E7C4E2371EACF30C00E0600E /* NADrawableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
