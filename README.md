@@ -6,7 +6,7 @@
 Live camera view with drawable view.
 
 ## Screenshot
-<img src="https://github.com/natmark/NALiveSketchView/blob/master/Assets/screenshot.png?raw=true" width="50%" height="50%"></img>
+<img src="https://github.com/natmark/NALiveSketchView/blob/master/Assets/screen_sample.png?raw=true" width="50%" height="50%"></img>
 
 ## Usage
 ```Swift
