@@ -13,6 +13,11 @@
 		E733E1BC1EA45BB600D4368E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E733E1BB1EA45BB600D4368E /* Assets.xcassets */; };
 		E733E1BF1EA45BB600D4368E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E733E1BD1EA45BB600D4368E /* LaunchScreen.storyboard */; };
 		E733E1CA1EA45BB600D4368E /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E733E1C91EA45BB600D4368E /* DemoTests.swift */; };
+		E7A9F7161EA72C3B00540970 /* NACameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9F7111EA72C3B00540970 /* NACameraView.swift */; };
+		E7A9F7171EA72C3B00540970 /* NADrawableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9F7121EA72C3B00540970 /* NADrawableView.swift */; };
+		E7A9F7181EA72C3B00540970 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7A9F7131EA72C3B00540970 /* Info.plist */; };
+		E7A9F7191EA72C3B00540970 /* NALiveSketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9F7141EA72C3B00540970 /* NALiveSketchView.swift */; };
+		E7C4E2321EACEB5400E0600E /* ViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4E2311EACEB5400E0600E /* ViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 		E733E1C51EA45BB600D4368E /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E733E1C91EA45BB600D4368E /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		E733E1CB1EA45BB600D4368E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A9F7111EA72C3B00540970 /* NACameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NACameraView.swift; sourceTree = "<group>"; };
+		E7A9F7121EA72C3B00540970 /* NADrawableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NADrawableView.swift; sourceTree = "<group>"; };
+		E7A9F7131EA72C3B00540970 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A9F7141EA72C3B00540970 /* NALiveSketchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NALiveSketchView.swift; sourceTree = "<group>"; };
+		E7A9F7151EA72C3B00540970 /* NALiveSketchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALiveSketchView.h; sourceTree = "<group>"; };
+		E7C4E2311EACEB5400E0600E /* ViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 		E733E1A81EA45BB600D4368E = {
 			isa = PBXGroup;
 			children = (
+				E7A9F7101EA72C3B00540970 /* NALiveSketchView */,
 				E733E1B31EA45BB600D4368E /* Demo */,
 				E733E1C81EA45BB600D4368E /* DemoTests */,
 				E733E1B21EA45BB600D4368E /* Products */,
@@ -79,6 +91,7 @@
 			children = (
 				E733E1B41EA45BB600D4368E /* AppDelegate.swift */,
 				E733E1B61EA45BB600D4368E /* ViewController.swift */,
+				E7C4E2311EACEB5400E0600E /* ViewerViewController.swift */,
 				E733E1B81EA45BB600D4368E /* Main.storyboard */,
 				E733E1BB1EA45BB600D4368E /* Assets.xcassets */,
 				E733E1BD1EA45BB600D4368E /* LaunchScreen.storyboard */,
@@ -94,6 +107,19 @@
 				E733E1CB1EA45BB600D4368E /* Info.plist */,
 			);
 			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		E7A9F7101EA72C3B00540970 /* NALiveSketchView */ = {
+			isa = PBXGroup;
+			children = (
+				E7A9F7111EA72C3B00540970 /* NACameraView.swift */,
+				E7A9F7121EA72C3B00540970 /* NADrawableView.swift */,
+				E7A9F7131EA72C3B00540970 /* Info.plist */,
+				E7A9F7141EA72C3B00540970 /* NALiveSketchView.swift */,
+				E7A9F7151EA72C3B00540970 /* NALiveSketchView.h */,
+			);
+			name = NALiveSketchView;
+			path = ../NALiveSketchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A9F7181EA72C3B00540970 /* Info.plist in Resources */,
 				E733E1BF1EA45BB600D4368E /* LaunchScreen.storyboard in Resources */,
 				E733E1BC1EA45BB600D4368E /* Assets.xcassets in Resources */,
 				E733E1BA1EA45BB600D4368E /* Main.storyboard in Resources */,
@@ -201,7 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C4E2321EACEB5400E0600E /* ViewerViewController.swift in Sources */,
+				E7A9F7161EA72C3B00540970 /* NACameraView.swift in Sources */,
+				E7A9F7191EA72C3B00540970 /* NALiveSketchView.swift in Sources */,
 				E733E1B71EA45BB600D4368E /* ViewController.swift in Sources */,
+				E7A9F7171EA72C3B00540970 /* NADrawableView.swift in Sources */,
 				E733E1B51EA45BB600D4368E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.natmark.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.natmark.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +445,7 @@
 				E733E1D01EA45BB600D4368E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E733E1D11EA45BB600D4368E /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +454,7 @@
 				E733E1D31EA45BB600D4368E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
